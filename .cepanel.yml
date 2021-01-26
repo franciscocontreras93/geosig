@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/hviz68d5tmq7/public_html/develope.bh-ingenieria.com
+    - /bin/cp -R * $DEPLOYPATH
